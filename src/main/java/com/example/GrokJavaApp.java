@@ -18,6 +18,6 @@ class HelloController {
     
     @GetMapping("/")
     public String hello() {
-        return "Hello from Grok-powered Java app deployed on Render! 🚀";
+        return "Hi Mike";
     }
 }
